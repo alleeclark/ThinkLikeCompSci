@@ -1,0 +1,5 @@
+p = int(10000)
+n = int(12)
+r = float(.8)
+t = int(input("Enter the number of years"))
+print(p*((1+r/n)**(n*t)))
